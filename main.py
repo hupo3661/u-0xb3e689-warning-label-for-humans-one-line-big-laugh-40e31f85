@@ -12,8 +12,8 @@ people actually behave, and the laugh lands in the last few words.
 import os
 
 LABEL = (
-    "WARNING: This human reads the instructions, "
-    "ignores them completely, then blames the instructions."
+    "WARNING: This human skips the instructions, "
+    "breaks the thing, then blames the instructions."
 )
 
 MAX_CHARS = 160

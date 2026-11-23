@@ -8,7 +8,7 @@ The funniest single-line safety warning label that should come printed on every 
 
 ## The label
 
-> WARNING: This human reads the instructions, ignores them completely, then blames the instructions.
+> WARNING: This human skips the instructions, breaks the thing, then blames the instructions.
 
 ## Run it
 
@@ -16,7 +16,7 @@ The funniest single-line safety warning label that should come printed on every 
 python3 main.py
 ```
 
-This writes the label to `/output/entry.txt` (one line, 98 characters, UTF-8, no trailing newline).
+This writes the label to `/output/entry.txt` (one line, 91 characters, UTF-8, no trailing newline).
 
 ---
 
