@@ -27,6 +27,13 @@ def main() -> None:
     os.makedirs("/output", exist_ok=True)
     with open("/output/entry.txt", "w", encoding="utf-8", newline="") as f:
         f.write(label)
+    with open("/output/entry.txt", "r", encoding="utf-8", newline="") as f:
+        written = f.read()
+    if written != label:
+        raise SystemExit(
+            f"verification failed: /output/entry.txt content {written!r} "
+            f"does not match label {label!r}"
+        )
 
 
 if __name__ == "__main__":
